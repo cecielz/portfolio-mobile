@@ -88,7 +88,7 @@ header, main, nav, h1, footer{
 }
 
 
-/* #gallery {
+ #gallery {
 	display: grid;
 	grid-template-columns: repeat(3, 40);
 	grid-template-rows: repeat(3, 30%);
@@ -102,7 +102,7 @@ header, main, nav, h1, footer{
 	width:auto;
 
 	/* gap: 10px; */
-  /*} */
+} 
 
 
 /*Change the styling for all of the list 
