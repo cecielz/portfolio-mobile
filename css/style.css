@@ -85,21 +85,47 @@ header, main, nav, h1, footer{
 }
 
 
-#gallery {
-	display: grid;
-	grid-template-columns: repeat(3, 30%);
-	grid-template-rows: repeat(3, 30%);
+/* #gallery-main {
+	display: flex;
+	justify-content: space-evenly;
+  	align-items: center;
+	position: relative;
+	flex-wrap: wrap;
 	
-	margin-top: 44px;
-	justify-items: center;
-	justify-content: center;
-	align-items: stretch;
-	align-content: center;
-	grid-auto-flow: column;
-	width:auto;
-
-	/* gap: 10px; */
   }
+
+  #gallery-main img{
+	flex-basis:200px;
+	position: relative;
+	flex: 1 1;
+	width: 20%;
+	z-index: 12;
+	cursor: pointer;
+	overflow: hidden;
+	transition:  0.5s ease-in;
+  }
+  #gallery-main img:hover {
+	opacity: 1;
+	width: 100%;
+	}  */
+
+#gallery-main {
+	display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+	padding: 10px;
+}
+
+#gallery-main img{
+    border: solid 5px rgba(0, 0, 255, 0.363);
+    margin: 8px;
+    width: 300px;
+	padding: 5px;
+	align-self:center;
+}
+
 
 
 /*Change the styling for all of the list 

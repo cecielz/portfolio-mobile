@@ -52,62 +52,62 @@
 			the form!
 		-->
 
-		<form action="submission.html" method="POST">
+		<form action="https://formspree.io/f/xzbovebg" method="POST">
 			<h1>Create a burger!</h1>
-			<section class="protein">
-				<label for="patty">What type of protein would you like?</label>
-				<input type="text" name="patty" id="patty">
+
+			<section class="respond-name">
+				<label for="name">How would you like to be called?</label>
+				<input type="text" name="name" id="name">
 			</section>
 			<hr>
 		
-			<section class="patties">
-				<label for="amount">How many patties would you like?</label>
-				<input type="number" name="amount" id="amount">
-			</section>
-			<hr>
-		
-			<section class="cooked">
-				<label for="doneness">How do you want your patty cooked</label>
+			<section class="excited">
+				<label for="excitement">On a scale of 1 to 5, with 1 being the lowest, how would you like to rate your excitement for virtual senses? </label>
 				<br>
-				<span>Rare</span>
-				<input type="range" name="doneness" id="doneness" value="3" min="1" max="5">
-				<span>Well-Done</span>
+				<span>1</span>
+				<input type="range" name="excitement" id="excitement" value="3" min="1" max="5">
+				<span>5</span>
+			</section>
+
+			<hr>
+		
+			<section class="best">
+				<span>Which senses are exciting for you in a virtual context?</span>
+				<br>
+				<input type="checkbox" name="exciting" id="taste" value="taste">
+				<label for="taste">Taste</label>
+				<input type="checkbox" name="exciting" id="smell" value="smell">
+				<label for="smell">Smell</label>
+				<input type="checkbox" name="exciting" id="touch" value="touch">
+				<label for="touch">Touch</label>
+				<input type="checkbox" name="exciting" id="sight" value="sight">
+				<label for="sight">Eyesight</label>
+				<input type="checkbox" name="exciting" id="sound" value="sound">
+				<label for="sound">Sound</label>
 			</section>
 			<hr>
 		
-			<section class="toppings">
-				<span>What toppings would you like?</span>
+			<section class="contact">
+				<span>Would you like to stay updated with us?</span>
 				<br>
-				<input type="checkbox" name="topping" id="lettuce" value="lettuce">
-				<label for="lettuce">Lettuce</label>
-				<input type="checkbox" name="topping" id="tomato" value="tomato">
-				<label for="tomato">Tomato</label>
-				<input type="checkbox" name="topping" id="onion" value="onion">
-				<label for="onion">Onion</label>
-			</section>
-			<hr>
-		
-			<section class="cheesy">
-				<span>Would you like to add cheese?</span>
-				<br>
-				<input type="radio" name="cheese" id="yes" value="yes">
+				<input type="radio" name="contact" id="yes" value="yes">
 				<label for="yes">Yes</label>
-				<input type="radio" name="cheese" id="no" value="yes">
+				<input type="radio" name="contact" id="no" value="yes">
 				<label for="no">No</label>
 			</section>
 			<hr>
 		
-			<section class="bun-type">
-				<label for="bun">What type of bun would you like?</label>
-				<select name="bun" id="bun">
-					<option value="sesame">Sesame</option>
-					<option value="potatoe">Potato</option>
-					<option value="pretzel">Pretzel</option>
+			<section class="contact-type">
+				<label for="contact">How would you like to be updated for future discussions?</label>
+				<select name="contact" id="contact">
+					<option value="phone">Phone</option>
+					<option value="email">Email</option>
+					<option value="mail">Mail</option>
 				</select>
 			</section>
 			<hr>
 		
-			<section class="sauce-selection">
+			<!-- <section class="sauce-selection">
 				<label for="sauce">What type of sauce would you like?</label>
 				<input list="sauces" id="sauce" name="sauce">
 				<datalist id="sauces">
@@ -115,12 +115,19 @@
 					<option value="mayo"></option>
 					<option value="mustard"></option>
 				</datalist>
+			</section> 
+			<hr> -->
+
+			<section class="years-old">
+				<label for="age">What is your age in number?</label>
+				<input type="number" name="age" id="age">
 			</section>
 			<hr>
+
 			<section class="extra-info">
-				<label for="extra">Anything else you want to add?</label>
+				<label for="extra">Anything else you'd like to add?</label>
 				<br>
-				<textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+				<textarea id="extra" name="extra" rows="4" cols="40"></textarea>
 			</section>
 			<hr>
 		
