@@ -4,16 +4,16 @@ body{
 	margin:1%;
 	padding:1%;
 	font-size:150%;
-	font-family: Verdana;
+	font-family: 'PT Sans', Arial, Helvetica, sans-serif;
 	line-height: 1.25;
-
+	background: url("../images/background.jpeg") #f1f1f1;
 }
 
 /*Make the h1 heading bigger with a bold font*/
 h1{
 	font-size: 2em; 
 	font-weight: bold;
-	font-family: Verdana;
+	font-family: 'PT Sans', Arial, Helvetica, sans-serif;
 
 }
 
@@ -28,7 +28,7 @@ h1{
 }
 
 .active a{
-	text-decoration: none;;
+	text-decoration: none;
 }
 
 /* visited link */
@@ -49,6 +49,8 @@ a:visited {
 /*Style the images*/
 img{
     height: 200px;
+	/*width: 200px;
+	*/
     border: 3px solid blue;
     padding: 25px;
     border-radius: 10px;
@@ -65,7 +67,7 @@ img:hover{
 
 /*Make the h2 heading match h1*/
 h2{
-	font-size: 2em; 
+	font-size: 1.5em; 
 	font-weight: bold;
 }
 
@@ -136,3 +138,7 @@ a.skip-link {
   .skip-link:focus {
 	transform: translateY(0%);
   }
+
+form h1{
+	font-weight: normal;
+ }
