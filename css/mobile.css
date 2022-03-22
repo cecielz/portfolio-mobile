@@ -9,45 +9,25 @@
     align-items: center;
 }
 
-* {
-    box-sizing: border-box;
-  }
+
   
 
 
 #gallery {
 	display: grid;
-	grid-template-columns: repeat(2, 40);
+	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(5, 30%);
 	
 	margin-top: 44px;
-	/* justify-items: stretch; */
+	justify-items: center;
 	justify-content: center;
-	/* align-items: stretch; */
+	align-items: center;
 	align-content: center;
-	grid-auto-flow: column;
+	/* grid-auto-flow: column; */
 	width:auto;
 	/* gap: 10px; */
     box-sizing: border-box;
 } 
-
-/* @media (min-width: 300px){
-    #gallery {
-        display: box;
-        
-        margin-top: 44px;
-        /* justify-items: stretch; */
-        justify-content: center;
-        /* align-items: stretch; */
-        align-content: center;
-        grid-auto-flow: column;
-        width:auto;
-        /* gap: 10px; */
-    } 
-     
-} */
-
-/* skip-link restyle potentially :) */
 
 
 
