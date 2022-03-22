@@ -72,8 +72,6 @@ img:nth-child(2n):hover{
 /*Make the h2 heading match h1*/
 h2{
 	font-size: 2em; 
-	font-weight: bold;
-    
 }
 
 /*Improve the spacing for paragraphs AND headings*/

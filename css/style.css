@@ -69,7 +69,6 @@ img:hover{
 /*Make the h2 heading match h1*/
 h2{
 	font-size: 1.5em; 
-	font-weight: bold;
 }
 
 /*Improve the spacing for paragraphs AND headings*/
@@ -166,6 +165,13 @@ a.skip-link {
 	transform: translateY(0%);
   }
 
-form h1{
+form h1, h2{
 	font-weight: normal;
+	padding: 0px 10px;
  }
+
+ form section{
+	 margin:10px;
+ }
+
+ 
