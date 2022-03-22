@@ -140,6 +140,4 @@ a.skip-link {
 	transform: translateY(0%);
   }
 
-  /* @media screen and (prefers-reduced-motion: reduce){
-    animation:none;
-} */
+  

@@ -85,12 +85,6 @@ img:hover {
 }
 
 
-img:hover{
-	transform: scale(1.1);
-}
-
-
-
 /*Make the h2 heading match h1*/
 h2{
 	font-size: 1.5em; 
@@ -108,30 +102,7 @@ header, main, nav, h1, footer{
 	margin: 10px 0;
 }
 
-
-/* #gallery-main {
-	display: flex;
-	justify-content: space-evenly;
-  	align-items: center;
-	position: relative;
-	flex-wrap: wrap;
-	
-  }
-
-  #gallery-main img{
-	flex-basis:200px;
-	position: relative;
-	flex: 1 1;
-	width: 20%;
-	z-index: 12;
-	cursor: pointer;
-	overflow: hidden;
-	transition:  0.5s ease-in;
-  }
-  #gallery-main img:hover {
-	opacity: 1;
-	width: 100%;
-	}  */
+ 
 
 #gallery-main {
 	display: flex; 
@@ -191,3 +162,9 @@ a.skip-link {
   }
  
  
+  @media screen and (prefers-reduced-motion: reduce){
+    img{
+        animation:none;
+    }
+    
+}
