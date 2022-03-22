@@ -139,6 +139,11 @@ nav li{
 	text-align:center;
 }
 
+.nav_links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 /*Added this so the links stay the same color*/
 /* a:visited{color:#0000FF} */
@@ -164,5 +169,4 @@ a.skip-link {
   .skip-link:focus {
 	transform: translateY(0%);
   }
- 
- 
+  
