@@ -111,6 +111,7 @@ nav li{
 	width: 22%;
 	border-radius: 30px;
 	text-align:center;
+	overflow-wrap:break-word;
 }
 
 
