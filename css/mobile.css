@@ -19,6 +19,9 @@ nav li {
 /* nav li a{
     padding: 15px;
 } */
+/* nav li a:nth-child(n+2)::after {
+	content: "👍 ";
+  } */
 
 #gallery {
 	display: grid;
