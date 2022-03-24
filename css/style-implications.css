@@ -179,20 +179,6 @@ form h1, h2{
  
 
 
-#bulb {
-	position: absolute;
-	z-index: 2;
-	top: 134px;
-	left: 162px;
-	fill: #FFF35C;
-	transition: all .5s ease-in-out;
-	cursor: pointer;
-
-	
-	/* &hover {
-		fill: #8C8F99;
-	} */
-}
 
 
 .frame {
@@ -209,6 +195,19 @@ form h1, h2{
 	/* background: #404556; */
   }
 
+  #bulb {
+	position: absolute;
+	z-index: 2;
+	top: 134px;
+	right: 140px;
+	fill: #FFF35C;
+	transition: all .5s ease-in-out;
+	cursor: pointer;
+	/* &hover {
+		fill: #8C8F99;
+	} */
+}
+
 #glow {
 	position: absolute;
 	width: 76px;
@@ -217,7 +216,7 @@ form h1, h2{
 	border-radius: 50px;
 	box-shadow: 0 0 50px 10px #FFF35C;
 	top: 134px;
-	left: 162px;
+	right: 142px;
 	transition: all .5s ease-in-out;
 }
 
@@ -227,7 +226,9 @@ form h1, h2{
 
 #base {
 	position: absolute;
+ 	
 	top: 233px;
-	left: 184px;
+	/* right: 184px; */
+	right: 162px;
 	fill: #E5E5E5;
 }
