@@ -14,14 +14,10 @@ nav li {
     /* align-content:center;  */
     flex-basis: auto;
     /* overflow-wrap: break-word; */
+	
 }
   
-/* nav li a{
-    padding: 15px;
-} */
-/* nav li a:nth-child(n+2)::after {
-	content: "👍 ";
-  } */
+
 
 #gallery {
 	display: grid;

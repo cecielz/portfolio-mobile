@@ -157,9 +157,8 @@ a.skip-link {
 	font-weight: 700;
 
 	display: inline-block;
-    left: auto;
-    right: auto;
-	position: relative;
+    position: absolute;
+    top: -50px;
 	font-size: 20px;
 	
 	/* transform: translateY(-100%);
@@ -167,6 +166,6 @@ a.skip-link {
   }
   
   .skip-link:focus {
-	transform: translateY(0%);
+	top:20px;
   }
   

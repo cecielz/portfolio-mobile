@@ -93,16 +93,18 @@ header, main, nav, h1, footer{
 
  #gallery {
 	display: grid;
-	grid-template-columns: repeat(3, 40);
-	grid-template-rows: repeat(3, 30%);
+	/* grid-template-columns: repeat(3, 40);
+	grid-template-rows: repeat(3, 30%); */
+	align-items: center;
+  	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	
 	margin-top: 44px;
 	/* justify-items: stretch; */
 	justify-content: center;
 	/* align-items: stretch; */
 	align-content: center;
-	grid-auto-flow: column;
-	width:auto;
+	/* grid-auto-flow: column;
+	width:auto; */
 	/* gap: 10px; */
 } 
 
@@ -133,17 +135,21 @@ a.skip-link {
 	font-weight: 700;
 
 	display: inline-block;
-    left: auto;
+    /* left: auto;
     right: auto;
-	position: relative;
+	position: relative; */
 	font-size: 20px;
+
+	position: absolute;
+    top: -50px;
 	
 	/* transform: translateY(-100%);
 	transition: transform 0.3s; */
   }
   
   .skip-link:focus {
-	transform: translateY(0%);
+	/* transform: translateY(0%); */
+	top:20px;
   }
 
   
