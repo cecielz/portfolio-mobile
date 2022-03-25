@@ -43,7 +43,7 @@
 		</h2>		
 		<p>
 			Studies have shown children are most vulnerable when it comes to VR technologies, as they are highly susceptible and can more easily confuse what is real and what is not real, i.e., they likely may be less able or unable to distinguish between the real world and the virtual world [18]. For example, in a study by Segovia and Bailenson [18], young elementary children watched their virtual doppelganger swimming with orcas. When these kids were questioned a week later, they said they believed their virtual experience to be real. In recent studies [2], young children would connect with “virtual characters” (avatars). 
-			<br><br>
+			<br> 
 			Children would see the “avatar” in VR as more real (compared to characters or avatars on other mediums, such as television). The avatar in the virtual environment would be more influential compared to the television equivalent, making it more difficult for the children to inhibit their actions or not follow the avatar’s commands. And it is not only young children who internalize VR scenarios – these scenarios also impact young adults.
 		</p>	
 		<img src = "images/all-headset.jpeg"   alt="all sense headset"/>
@@ -54,7 +54,7 @@
 		</h2>		
 		<p>
 			Integrating ethics and moral sensitivity into design is referred to as “anticipatory technology ethics” by Brey [4] and “responsible research and innovation” by Sutcliffe [23]. These researchers emphasize the vital importance and responsibilities that designers have on technologies and their capacities, as well as designers’ moral obligations to the public. These obligations may include a wider long-term view, taking into account social involvement, environmental impacts, and other repercussions. 
-			<br><br>
+			<br> 
 			Moral responsibilities related to technology have long been a subject of debate. For example, guidelines presented by Keith Miller [12] and other researchers on the topic of moral responsibilities emphasize that people who design, develop, and deploy a computing artifact (hardware or software) are accountable for that artifact, and for the foreseeable effects of that artifact.
 
 		</p>
@@ -62,7 +62,7 @@
 		
 
 		<div class="frame">
-			<svg width="76px" height="94px" viewBox="0 0 76 94" id="bulb" onclick="void(0);">
+			<svg width="76px" height="94px" viewBox="0 0 76 94" id="bulb" onclick="myFunction()">
 				<path d="M76,37.037 C76,59.939 55.6428571,75.427 55.6428571,93.5 L20.3571429,93.5 C20.3571429,75.427 0,59.9335 0,37.037 C0,13.1505 18.9891429,0 37.9782857,0 C56.9891429,0 76,13.167 76,37.037 L76,37.037 Z"></path>
 			</svg>
 			<div id="glow"></div>
@@ -170,5 +170,18 @@
 			&copy; 2022 <span class="fa-solid fa-user"></span>
 		</p>
 	</footer>
+
+	<script>
+		function myFunction() {
+			var x = document.querySelector("body");
+			if (x.style.background === 'url("../images/background.jpeg")') {
+				x.style.background = 'white';
+			} 
+			else {
+				var imageurl = "url('" + window.location.href + "../images/background.jpeg')";
+				x.style.background = imageurl;
+			}
+		}
+	</script> 
 </body>
 </html>
